@@ -48,3 +48,10 @@ console.log(document.title);
 
 let heading = document.getElementById("heading");
 console.log(heading);
+
+heading.innerText = "THANUJA";
+
+function changeHeading() {
+    heading.innerText = "THANUJA";
+    console.log("clicked");
+}
