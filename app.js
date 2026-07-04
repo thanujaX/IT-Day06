@@ -51,7 +51,12 @@ console.log(heading);
 
 heading.innerText = "THANUJA";
 
+let number = 0;
 function changeHeading() {
-    heading.innerText = "THANUJA";
-    console.log("clicked");
+    heading.innerText = "Thanuja" + (++number);
+    console.log("clicked!");
+}
+function changeHeading2() {
+    heading.innerText = "Thanuja" + (--number);
+    console.log("clicked!");
 }
